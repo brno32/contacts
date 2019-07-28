@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://brno32:<password>@cluster0-ji4ok.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://brno32:<password>@cluster0-ji4ok.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
 }

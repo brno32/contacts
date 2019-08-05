@@ -1,14 +1,12 @@
 import React, { useState, useContext, useEffect } from "react";
 import AlertContext from "../../context/alert/alertContext";
 import AuthContext from "../../context/auth/authContext";
-import { PromiseProvider } from "mongoose";
 
 const Register = props => {
   const alertContext = useContext(AlertContext);
   const authContext = useContext(AuthContext);
 
   const { setAlert } = alertContext;
-
   const { register, error, clearErrors, isAuthenticated } = authContext;
 
   useEffect(() => {
